@@ -1,0 +1,61 @@
+<html>
+  <head>
+  <title>比芸5期PUガチャ</title>
+  </head>
+  <BODY bgcolor="#F2E6FF">
+　<HR align="center">
+　<CENTER><B><FONT face="HG創英角ポップ体" color="#AC62FF" size="+3">
+　比芸5期PUガチャ 
+　</FONT></B></CENTER>
+　<HR align="center">
+   <br>
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+
+<script>
+
+function getImage(){
+  //画像ファイル名を配列で保持
+  var arr = [
+      '0.png',
+      '1.png',
+      '2.png',
+      '3.png',
+      '4.png',
+      '5.png',
+      '6.png'
+      ];
+ 
+  //ランダムで画像ファイルを取得して表示する
+  var obj = document.getElementById("im1");
+  var a = Math.floor(Math.random() * arr.length);
+  obj.src = arr[a];
+}
+</script>
+</head>
+<body>
+
+
+   <center>
+  <br>
+  <img id="im1" alt="">
+  <br>
+  <br>
+
+  <input type="button" value="1回まわす" onclick="getImage()"
+  style="WIDTH: 200px; HEIGHT: 70px">
+
+<br>
+
+</center>
+<br>
+<br>
+<br>
+
+
+</body>
+</html>
